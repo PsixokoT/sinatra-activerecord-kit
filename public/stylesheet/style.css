@@ -1,0 +1,83 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 40px;
+}
+#cap {
+    margin-left: 20px;
+}
+.contacts {
+    float: right;
+    margin-right: 20px;
+}
+#social-groups {
+    float: right;
+}
+.navbar-inverse .navbar-toggle {
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.navbar-inverse .navbar-toggle .glyphicon {
+    color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+    color: #333;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    float: right;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    background-color: #f5f5f5;
+}
+
+#btns {
+    display: inline;
+    /*width: 150px;*/
+    /*position: relative;*/
+}
+
+#index .container-fluid img {
+    float: left;
+    background: none;
+    /*border: 1px solid black;*/
+    padding: 10px;
+    margin-right: 20px;
+    width: 40%;
+}
+
+.news {
+    margin-top: 30px;
+    float: left;
+}
+
+.thumb img {
+    filter: none; /* IE6-9 */
+    -webkit-filter: grayscale(0);
+    border-radius:5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding:5px;
+}
+.thumb img:hover {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1);
+}
+.thumb {
+    padding:5px;
+}
